@@ -2,4 +2,4 @@
 My first Hyprland Config
 
 # Packages
-waybar-hyprland-git wofi dunst unzip fish starship thunar kitty
+waybar-hyprland-git wofi dunst unzip fish starship thunar kitty udev-block-notify polkit-gnome udisks2
