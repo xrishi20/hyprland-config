@@ -18,7 +18,7 @@ window {
     border: none;
     color: @foreground;
     background-color: #313244;
-   	outline: none;
+    outline: none;
 }
 
 #inner-box {
@@ -43,6 +43,7 @@ window {
 #text {
     margin: 4px;
     padding: 2px 6px;
+    color: @foreground;
 }
 
 #text:selected {
