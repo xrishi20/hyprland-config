@@ -32,13 +32,6 @@
             "10": []
         }
     },
-    "custom/caffeine": {
-        "exec": "~/.config/waybar/scripts/caffeine.sh",
-        "return-type": "json",
-        "interval": 3,
-        "format-icons": ["﯈", ""],
-        "format": "{icon}"
-    },
     "custom/updates": {
         "exec": "(checkupdates ; paru -Qua) | wc -l",
         "interval": 7200,

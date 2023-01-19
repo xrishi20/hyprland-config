@@ -8,12 +8,11 @@
 }
 
 window#waybar {
-    background: rgba(21, 18, 27, 0);
-    color: #cdd6f4;
+    background: rgba(255, 255, 255, 0);
+    color: #ffffff;
 }
 
 tooltip {
-    background: #1e1e2e;
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
@@ -21,38 +20,39 @@ tooltip {
 }
 
 #workspaces button {
-    padding: 5px;
-    color: #313244;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 6px 10px;
+    border-radius: 99px;
+    color: #ffffff;
     margin-right: 5px;
-    transition-property: background-color;
+    transition-property: all;
     transition-duration: 0.5s;
 }
 
 #workspaces button.active {
-    color: #a6adc8;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
 }
 
 #workspaces button.focused {
-    color: #a6adc8;
-    background: #eba0ac;
+    color: #0080ff;
+    background: #ffffff;
     border-radius: 8px;
 }
 
 #workspaces button.urgent {
-    color: #11111b;
-    background: #a6e3a1;
+    color: #ffffff;
+    background: #ff0000;
     border-radius: 8px;
 }
 
 #workspaces button:hover {
-    background: #11111b;
-    color: #cdd6f4;
-    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
 }
 
 #custom-language,
 #custom-updates,
-#custom-caffeine,
 #window,
 #clock,
 #battery,
@@ -61,66 +61,51 @@ tooltip {
 #workspaces,
 #tray,
 #backlight {
-    background: #1e1e2e;
-    padding: 0px 10px;
-    margin: 3px 0px;
+    background: transparent;
+    margin: 6px 0px;
     margin-top: 10px;
-    border: 1px solid #181825;
 }
 
 #tray {
-    border-radius: 8px;
-    margin-right: 8px;
+    margin-right: 12px;
 }
 
 #workspaces {
-    background: #1e1e2e;
-    border-radius: 10px;
     margin-left: 10px;
     padding-right: 0px;
     padding-left: 5px;
 }
 
 #custom-language {
-    color: #f38ba8;
-    border-left: 0px;
-    border-right: 0px;
+    color: #ffffff;
 }
 
 #custom-updates {
-    color: #f5c2e7;
-    border-left: 0px;
-    border-right: 0px;
+    color: #ffffff;
 }
 
 #window {
-    border-radius: 10px;
     margin-left: 60px;
     margin-right: 60px;
 }
 
 #clock {
-    color: #f9e2af;
+    color: #ffffff;
     border-radius: 10px;
-    margin-left: 10px;
+    margin-left: 14px;
 }
 
 #network {
-    color: #fab387;
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 10px 0 0 10px;
-}
-
-#battery {
-    color: #a6e3a1;
-    border-radius: 0 10px 10px 0;
+    color: #aee8ff;
     margin-right: 10px;
-    border-left: 0px;
 }
 
 #backlight {
-    color: #cba6f7;
-    border-left: 0px;
-    border-right: 0px;
+    color: #b6b9ff;
+    margin-right: 10px;
+}
+
+#battery {
+    color: #bdfcc3;
+    margin-right: 16px;
 }

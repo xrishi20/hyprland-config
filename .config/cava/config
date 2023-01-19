@@ -4,7 +4,7 @@
 [general]
 
 # Smoothing mode. Can be 'normal', 'scientific' or 'waves'.
-mode = waves
+mode = scientific
 
 # Accepts only non-negative values.
 framerate = 120
@@ -21,7 +21,7 @@ framerate = 120
 # The number of bars (0-200). 0 sets it to auto (fill up console).
 # Bars' width and space between bars in number of characters.
 bars = 0
-bar_width = 4
+bar_width = 2
 bar_spacing = 1
 
 # Lower and higher cutoff frequencies for lowest and highest bars
@@ -88,29 +88,11 @@ style = mono
 ; frame_delimiter = 10
 
 
-
-# [color]
-
-# # Colors can be one of seven predefined: black, blue, cyan, green, magenta, red, white, yellow.
-# # Or defined by hex code '#xxxxxx' (hex code must be within ''). User defined colors requires a
-# # terminal that can change color definitions such as Gnome-terminal or rxvt.
-# ; background = black
-# ; foreground = cyan
-
-# # Gradient mode, only hex defined colors are supported, background must also be defined in hex
-# # or remain commented out. 1 = on, 0 = off. Warning: for certain terminal emulators cava will
-# # not able to restore color definitions on exit, simply restart your terminal to restore colors.
-# gradient = 1
-# gradient_color_1 = '#0099ff'
-# gradient_color_2 = '#ff3399'
-
-
-
 [smoothing]
 
 # Multiplier for the integral smoothing calculations. Takes values from 0-0.99.
 # Higher values means smoother, but less precise. Set to 0 to disable.
-; integral = 0.7
+; integral = 0.8
 
 # Disables or enables the so-called "Monstercat smoothing". Set to 0 to disable.
 ; monstercat = 1
@@ -118,7 +100,7 @@ style = mono
 
 # Set gravity multiplier for "drop off". Higher values means bars will drop faster.
 # Accepts only non-negative values. 0.5 means half gravity, 2 means double. Set to 0 to disable "drop off".
-; gravity = 1
+; gravity = 2
 
 
 # In bar height, bars that would have been lower that this will not be drawn.
@@ -140,17 +122,15 @@ style = mono
 [color]
 
 gradient = 1
-gradient_count = 4
-gradient_color_1 = '#fdba74'
-gradient_color_2 = '#fde68a'
-gradient_color_3 = '#f472b6'
-gradient_color_4 = '#8b5cf6'
+gradient_count = 3
+gradient_color_1 = '#0080ff'
+gradient_color_2 = '#73c2fb'
+gradient_color_3 = '#00f7f7'
 
 [color]
 
 gradient = 1
 
-gradient_color_1 = '#fdba74'
-gradient_color_2 = '#fde68a'
-gradient_color_3 = '#f472b6'
-gradient_color_4 = '#8b5cf6'
+gradient_color_1 = '#0080ff'
+gradient_color_2 = '#73c2fb'
+gradient_color_3 = '#00f7f7'
