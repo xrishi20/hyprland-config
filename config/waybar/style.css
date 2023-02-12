@@ -8,47 +8,51 @@
 }
 
 window#waybar {
-	background: #171422;
+	background: #061125;
 }
 
 tooltip {
 	border-radius: 4px;
 	border: none;
 	border-style: solid;
-	color: #cdd6f4;
+	background: #061125;
+}
+
+tooltip * {
+	color: #3afbf6;
 }
 
 #workspaces button {
-	background-color: #1e1e2e;
+	background-color: #0f1d38;
 	padding: 6px 12px;
-	border-radius: 6px;
+	border-radius: 4px;
 	margin-right: 6px;
 	transition-property: all;
 	transition-duration: 0.5s;
 }
 
 #workspaces button.active {
-	background: #cdd6f4;
-	color: #222222;
+	background: #3afbf6;
+	color: #061125;
 }
 
 #workspaces button.focused {
-	color: #222222;
-	border-radius: 8px;
+	color: #061125;
+	border-radius: 4px;
 }
 
 #workspaces button.urgent {
-	background: #f38ba8;
-	border-radius: 8px;
+	background: #3afbf6;
+	border-radius: 4px;
 }
 
 #workspaces button:hover {
-	background: #cdd6f4;
-	color: #222222;
+	background: #3afbf6;
+	color: #061125;
 }
 
 #window {
-	color: #cdd6f4;
+	color: #3afbf6;
 }
 
 #custom-updates,
@@ -61,13 +65,13 @@ tooltip {
 	background: transparent;
 	margin: 6px 0px;
 	margin-top: 6px;
-	color: #222222;
+	color: #3afbf6;
 }
 
 #tray {
 	margin-right: 8px;
-	border-radius: 6px;
-	background-color: #1e1e2e;
+	border-radius: 4px;
+	background-color: #0f1d38;
 	padding: 6px 12px;
 }
 
@@ -82,37 +86,37 @@ tooltip {
 }
 
 #clock {
-	border-radius: 6px;
+	border-radius: 4px;
 	margin-left: 8px;
 	margin-right: 2px;
-	background: #89b4fa;
+	background-color: #0f1d38;
 	padding: 6px 12px;
 }
 
 #custom-updates {
 	margin-right: 8px;
-	border-radius: 6px;
-	background-color: #a6e3a1;
+	border-radius: 4px;
+	background-color: #0f1d38;
 	padding: 6px 12px;
 }
 
 #network {
 	margin-right: 8px;
-	border-radius: 6px;
-	background-color: #94e2d5;
+	border-radius: 4px;
+	background-color: #0f1d38;
 	padding: 6px 12px;
 }
 
 #backlight {
 	margin-right: 8px;
-	border-radius: 6px;
-	background-color: #fab387;
+	border-radius: 4px;
+	background-color: #0f1d38;
 	padding: 6px 12px;
 }
 
 #battery {
 	margin-right: 8px;
-	border-radius: 6px;
-	background-color: #f38ba8;
+	border-radius: 4px;
+	background-color: #0f1d38;
 	padding: 6px 12px;
 }
