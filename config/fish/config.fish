@@ -1,5 +1,5 @@
 # Fish shell basic 
-set fish_greeting
+set -g fish_greeting
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
 export BAT_THEME="Catppuccin-mocha"
 
@@ -11,6 +11,9 @@ set -U __done_notification_urgency_level low
 if status --is-interactive
  starship init fish | source
 end
+
+# Some config
+set -g fish_greeting
 
 # Fish command history
 function history
@@ -44,4 +47,3 @@ end
 if status --is-interactive
   circles
 end
-
