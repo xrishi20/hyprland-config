@@ -8,22 +8,22 @@
 }
 
 window#waybar {
-	background: #061125;
+	background: transparent;
 }
 
 tooltip {
 	border-radius: 4px;
 	border: none;
 	border-style: solid;
-	background: #061125;
+	background: #1b002e;
 }
 
 tooltip * {
-	color: #3afbf6;
+	color: #e4bfff;
 }
 
 #workspaces button {
-	background-color: #0f1d38;
+	background-color: #1b002e;
 	padding: 6px 12px;
 	border-radius: 4px;
 	margin-right: 6px;
@@ -32,27 +32,27 @@ tooltip * {
 }
 
 #workspaces button.active {
-	background: #3afbf6;
-	color: #061125;
+	background: #390366;
+	color: #ffffff;
 }
 
 #workspaces button.focused {
-	color: #061125;
+	color: #ffffff;
 	border-radius: 4px;
 }
 
 #workspaces button.urgent {
-	background: #3afbf6;
+	background: #390366;
 	border-radius: 4px;
 }
 
 #workspaces button:hover {
-	background: #3afbf6;
-	color: #061125;
+	background: #390366;
+	color: #ffffff;
 }
 
 #window {
-	color: #3afbf6;
+	color: #e4bfff;
 }
 
 #custom-updates,
@@ -65,13 +65,13 @@ tooltip * {
 	background: transparent;
 	margin: 6px 0px;
 	margin-top: 6px;
-	color: #3afbf6;
+	color: #e4bfff;
 }
 
 #tray {
 	margin-right: 8px;
 	border-radius: 4px;
-	background-color: #0f1d38;
+	background-color: #1b002e;
 	padding: 6px 12px;
 }
 
@@ -86,37 +86,37 @@ tooltip * {
 }
 
 #clock {
-	border-radius: 4px;
-	margin-left: 8px;
+	border-radius: 5px;
+	margin-left: 4px;
 	margin-right: 2px;
-	background-color: #0f1d38;
+	background-color: #1b002e;
 	padding: 6px 12px;
 }
 
 #custom-updates {
 	margin-right: 8px;
 	border-radius: 4px;
-	background-color: #0f1d38;
+	background-color: #1b002e;
 	padding: 6px 12px;
 }
 
 #network {
 	margin-right: 8px;
 	border-radius: 4px;
-	background-color: #0f1d38;
+	background-color: #1b002e;
 	padding: 6px 12px;
 }
 
 #backlight {
 	margin-right: 8px;
 	border-radius: 4px;
-	background-color: #0f1d38;
+	background-color: #1b002e;
 	padding: 6px 12px;
 }
 
 #battery {
-	margin-right: 8px;
+	margin-right: 5px;
 	border-radius: 4px;
-	background-color: #0f1d38;
+	background-color: #1b002e;
 	padding: 6px 12px;
 }
