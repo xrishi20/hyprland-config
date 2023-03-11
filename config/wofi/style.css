@@ -1,20 +1,25 @@
-@define-color clear rgba(0, 0, 0, 0.0);
-@define-color primary rgba(0, 0, 0, 0.75);
+* {
+  transition: 0.2s;
+}
 
 window {
-	margin: 2px;
-	border: 2px solid;
-	border-color: #313244;
-	background-color: #1e1e2e;
-	border-radius: 10px;
 	font-family: "Inter";
 	letter-spacing: 0.05em;
 	font-size: 16px;
+    line-height: 1;
 }
 
+window {
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+
 #input {
-	padding: 2px;
-	margin: 4px;
+	padding: 4px 12px;
+	margin: 12px;
 	margin-bottom: 8px;
 	border: none;
 	color: @foreground;
@@ -22,32 +27,54 @@ window {
 	outline: none;
 }
 
+#input image {
+    color: #fff;
+}
+
+#input:focus {
+    border: none;
+   	outline: none;
+}
+
 #inner-box {
-	margin: 2px;
-	border: 0px solid;
-	background-color: @clear;
-	border-radius: 8px;
+    margin: 12px;
+    margin-top: 0px;
+    border: none;
+    color: transparent;
+    border-radius: 8px;
+}
+
+#inner-box * {
+    transition: none;
 }
 
 #outer-box {
-	margin: 5px;
-	border: none;
-	border-radius: 8px;
-	background-color: @clear;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    border-radius: 16px;
 }
 
 #scroll {
-	margin: 0px;
-	border: none;
+    margin-top: 5px;
+    border: none;
+    border-radius: 16px;
+    margin-bottom: 5px;
+}
+
+#img {
+    margin-right: 4px;
+    background: transparent;
 }
 
 #text {
 	margin: 4px;
 	padding: 4px 6px;
+	color: rgba(255, 255, 255, 0.5);
 }
 
 #text:selected {
-	color: @foreground;
+	color: #ffffff;
 	margin: 4px;
 	border: none;
 	border-radius: 8px;
