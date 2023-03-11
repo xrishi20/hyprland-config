@@ -8,5 +8,5 @@ otf-cascadia-code-nerd bibata-cursor-theme papirus-icon-theme lxappearance boo-s
 git clone https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme.git
 cd Tokyo-Night-GTK-Theme/
 sudo cp -r themes/Tokyonight-Dark-BL-LB /usr/share/themes/
-# Update Grub
+## Update Grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
